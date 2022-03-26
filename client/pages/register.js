@@ -41,7 +41,7 @@ const register = () => {
         }
 
         catch (err) {
-            toast.error(err.response.data);
+            toast.error(err.response?.data);
             setLoading(false);
         }
 

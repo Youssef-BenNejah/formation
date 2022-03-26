@@ -26,7 +26,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\projet\\client\\context\\index.js";
+var _jsxFileName = "D:\\Formation\\client\\context\\index.js";
 
 
 
@@ -49,7 +49,7 @@ const UserProvider = ({
   }, []);
   const router = (0,next_router__WEBPACK_IMPORTED_MODULE_3__.useRouter)();
   const token = state && state.token ? state.token : "";
-  (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.baseURL) = "http://localhost:8000/api";
+  (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.baseURL) = "http://localhost:5000/api";
   (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization) = `Bearer ${token}`;
   axios__WEBPACK_IMPORTED_MODULE_0___default().interceptors.response.use(function (response) {
     //do something before request is sent
@@ -92,7 +92,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\projet\\client\\pages\\index.js";
+var _jsxFileName = "D:\\Formation\\client\\pages\\index.js";
 
 
 
