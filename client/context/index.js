@@ -1,7 +1,8 @@
 import axios from "axios";
-import next from "next";
 import { useState, createContext, useEffect } from "react";
 import { useRouter } from "next/router";
+
+
 const UserContext = createContext();
 const UserProvider = ({ children }) => {
     const [state, setState] = useState({

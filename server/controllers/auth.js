@@ -11,6 +11,7 @@ export const register = async (req, res) => {
     if (!name) return res.status(400).send("name is required");
     if (!password || password.length < 6)
         return res.status(400)
+        console.log("password is required should be 6 characters long")
             .send("password is required should be 6 characters long");
 
     if (!secret) return res.status(400).send('answer is required');

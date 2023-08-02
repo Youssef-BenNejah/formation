@@ -30,5 +30,5 @@ app.use(
 
 //autoLoad routes
   readdirSync('./routes').map((r)=>app.use('/api',require(`./routes/${r}`))) 
-const port=process.env.PORT || 5000 ;
+const port=process.env.PORT || 5001 ;
 app.listen(port, ()=> console.log(`server running on port ${port}`));
